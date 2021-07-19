@@ -2,7 +2,9 @@
 
 """Basic annotations - floor"""
 
+import math
 
-def floor(n: float) -> float:
+
+def floor(n: float) -> int:
     """Return the floor of n."""
-    return n
+    return math.floor(n)
